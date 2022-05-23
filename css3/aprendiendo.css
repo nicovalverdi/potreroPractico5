@@ -1,0 +1,422 @@
+@font-face {
+  font-family: "fuente";
+  src: url("../fuente/COOPBL.TTF") format("truetype");
+}
+
+body {
+  background: rgb(255, 239, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 239, 0, 1) 0%,
+    rgba(228, 213, 93, 1) 50%,
+    rgba(231, 158, 0, 1) 100%
+  );
+  background-image: url(../imagenes/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+
+.conteiner-boton{
+  bottom: 10%;
+  position: fixed;
+  padding-left: 93%;
+  width: 1%;
+  height: 1%;
+  z-index: 999;
+
+}
+
+
+.container-boton:hover{
+    transform: scale(1.1);
+
+}
+
+.boton{
+    width: 50px;
+    border-radius: 50px;
+
+}
+
+
+
+header {
+  background-color: #FC4646;
+  border-style: solid;
+  border-color: white;
+  border-radius: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+
+}
+
+h1 {
+
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  flex-grow: 15;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Monoton', cursive;
+}
+
+.contacto {
+  gap: 1rem;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+  background-color: yellow;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  color: black;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  transition: all 0.5s ease;
+  margin-top: 0.5rem;
+}
+.contacto:hover{
+
+  background-color: #fefefe ;
+  color: #499954;
+
+}
+.inicio{
+  gap: 1rem;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+  color: rgb(23, 52, 23);
+  background-color: #4EBB72;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  color: black;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  transition: all 0.5s ease;
+  margin-top: 0.5rem;
+}
+
+.inicio:hover{
+  background-color: #fefefe ;
+  color: #499954;
+
+}
+nav{background: #4EBB72 ;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50px;
+  margin: 1%;
+}
+
+section{
+
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+
+section div{
+
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+img{
+
+  border-radius: 50%;
+  transition: 0.8s;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2vh;
+  font-weight: bold;
+}
+img:hover{
+  text-decoration: none;
+  color: rgb(23, 52, 23);
+  transform: scale(1.1);
+}
+
+h2{
+
+color: white;
+text-align: center;
+font-size: 1.5rem;
+font-family: "fuente"
+}
+
+p{
+
+color: white;
+display: flex;
+justify-content: center;
+border: 2px solid #4EBB72;
+padding: 5px;
+font-size: 1.1rem;
+
+}
+
+
+.ingredientes{
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+h3{
+text-align: center;
+color: white;
+font-size: 1.5rem;
+font-family: "fuente"
+}
+
+
+article ul{
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+  color: white;
+  float: left;
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+.video{
+padding-top: 120px;
+
+}
+
+
+.preparacion{
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+h4{
+text-align: center;
+color: white;
+font-size: 1.5em;
+font-family: "fuente"
+}
+
+
+
+article ol{
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+  color: white;
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+
+
+
+.enlaces {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.enlaces ul {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  }
+
+.enlaces ul li,
+.enlaces a {
+  transition: 0.8s;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+
+.enlaces li:hover,
+.enlaces a:hover {
+  text-decoration: none;
+  color: rgb(23, 52, 23);
+  transform: scale(1.1);
+
+}
+
+.FormContacto {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 5rem 30vw;
+  max-width: 33vw;
+  background-color: #fefefe;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 5%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+.FormContacto p{
+    text-align: center;
+    align-self: center;
+    color: #0a2b0a;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.FormContacto .inputForm,
+.FormContacto textarea {
+  min-width: 100%;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem;
+  background: #ededed;
+  border-radius: 0.25rem;
+  border: none;
+
+}
+
+.FormContacto .inputForm:focus,
+.FormContacto textarea:focus{
+background-color:rgba(165, 227, 143, 0.365) ;
+outline: none !important;
+
+}
+
+
+.container-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  justify-self: auto;
+  width: 100%;
+  gap: 2%;
+
+}
+
+.buttonForm {
+  width: 48%;
+  justify-self: auto;
+  background-color: #499954 ;
+  padding: 0.25rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  color: #fefefe;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  transition: all 0.5s ease;
+  margin-top: 0.5rem;
+
+  }
+
+.buttonForm:hover, .buttonForm:active {
+    background-color: #fefefe ;
+    color: #499954;
+
+  }
+
+
+  footer{
+
+    border-style: solid;
+    border-color: white;
+    border-radius: 60px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+  }
+  .iconos{
+    width: 2rem;
+    border-radius:  1.6875rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+
+    }
+    .SocialMediaButtons {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      position: static;
+
+    }
+
+    .SocialMediaButtons .social-button {
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 2rem;
+      height: 2rem;
+      border: 0.126rem solid transparent;
+      text-decoration: none;
+      text-align: center;
+      color: #fefefe;
+      font-size: 1rem;
+      line-height: 1.75em;
+      border-radius: 1.6875rem;
+      transition: all 0.5s ease;
+    }
+
+    .SocialMediaButtons .social-button.facebook {
+      background: #3b5998;
+    }
+
+    .SocialMediaButtons .social-button.facebook:hover {
+      color: #3b5998;
+      background: #fefefe;
+      border-color: #3b5998;
+    }
+
+    .SocialMediaButtons .social-button.twitter {
+      background: #55acee;
+    }
+
+    .SocialMediaButtons .social-button.twitter:hover {
+      color: #55acee;
+      background: #fefefe;
+      border-color: #55acee;
+    }
+
+    .SocialMediaButtons .social-button.youtube {
+      background: #bb0000;
+    }
+
+    .SocialMediaButtons .social-button.youtube:hover {
+      color: #bb0000;
+      background: #fefefe;
+      border-color: #bb0000;
+    }
+
+    .SocialMediaButtons .social-button.instagram {
+      background: #ed4956;
+    }
+
+    .SocialMediaButtons .social-button.instagram:hover {
+      color: #ed4956;
+      background: #fefefe;
+      border-color: #ed4956;
+    }
